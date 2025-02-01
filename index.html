@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="box">
+            <div class="display">0</div>
+            <div class="buttons">
+                <div class="row-one">
+                    <button class="seven b" onclick="
+                        display('seven')">7</button>
+                    <button class="eight b" onclick="
+                    display('eight')">8</button>
+                    <button class="nine b" onclick="
+                    display('nine')">9</button>
+                    <button class="clear" onclick="
+                    clear_()">AC</button>
+                </div>
+                <div class="row-two">
+                    <button class="six b" onclick="
+                        display('six')">6</button>
+                    <button class="five b" onclick="
+                    display('five')">5</button>
+                    <button class="four" onclick="
+                    display('four')">4</button>
+                    <button class="multiply" onclick="
+                    stringPart('multiply')">*</button>
+                </div>
+                <div class="row-three">
+                    <button class="one" onclick="
+                        display('one')">1</button>
+                    <button class="two" onclick="
+                        display('two')">2</button>
+                    <button class="three" onclick="
+                        display('three')">3</button>
+                    <button class="divide" onclick="
+                    stringPart('divide')">/</button>
+                </div>
+                
+                <div class="row-four">
+                    <button class="zero" onclick="
+                        display('zero')">0</button>
+                    <button class="dot" onclick="
+                    stringPart('dot')">.</button>
+                    <button class="add" onclick="
+                    stringPart('add')">+</button>
+                    <button class="subtract" onclick="
+                    stringPart('subtract')">-</button>
+                </div>
+                <div class="fifth-row">
+                    <button class="module" onclick="
+                    stringPart('module')">%</button>
+                    <button class="'del" onclick="
+                    delete_()">del</button>
+                    <button class="equal" onclick="
+                    calculate()">=</button>
+                </div>
+            </div>               
+    </div>
+    <script src="/fucntion.js"></script>
+</body>
+</html>

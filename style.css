@@ -1,0 +1,73 @@
+html,body{
+
+    height: 100%;
+}
+body{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    /* border-width: 5px; */
+    border:cyan;
+    max-width: 370px;
+    max-height: 600px;
+    align-self: center;
+    border-width: 5px;
+    border-style: solid;
+    /* background-color: red; */
+}
+.display{
+    font-size:100px;
+    text-align:end;
+    padding-bottom:15px;
+    max-width: 375px;
+    flex: 1;
+    border-style:solid;
+    border-width: 5px;
+    border-color:cyan;
+    max-height: 100px;
+
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style:solid;
+    border-color:rgb(10, 3, 3);
+    border-width:6px;
+    flex:auto;
+    min-height: 200px;
+    border-left:0px;
+    border-right: 0px;
+   
+}
+button{
+    /* flex:1; */
+    padding: 20px;
+    /* padding-right:10px; */
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin: 0px;
+    width:86px;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+    border-width: 4px;
+    border-color: aqua;
+}
+.equal{
+    width: 176px;
+    background-color: rgb(104, 111, 211);
+}
+
+.clear{
+    background-color: red;
+}
